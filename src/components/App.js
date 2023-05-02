@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className="counter">
         <button onClick={()=>dispatch(incNumber())}>+</button>
-        <input type="number" readOnly value={myState}></input>
+        <h1>{myState}</h1>
         <button onClick={()=>dispatch(decNumber())}>-</button>
     </div>
   )
