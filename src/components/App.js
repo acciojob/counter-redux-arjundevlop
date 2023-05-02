@@ -10,9 +10,9 @@ const App = () => {
   const dispatch = useDispatch();
   return (
     <div className="counter">
-        <button onClick={()=>dispatch(incNumber())}>+</button>
+        <button onClick={()=>dispatch(incNumber())}>increment</button>
         <h1>{myState}</h1>
-        <button onClick={()=>dispatch(decNumber())}>-</button>
+        <button onClick={()=>dispatch(decNumber())}>decrement</button>
     </div>
   )
 }
